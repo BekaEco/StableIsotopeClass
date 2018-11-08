@@ -9,6 +9,22 @@ library(MixSIAR)
 #load the library for rjags
 library(rjags)
 library(R2jags)
-library(splancs)
+library(ggplot2)
+library(MASS)
+library(RColorBrewer)
+library(reshape)
+library(reshape2)
+library(lattice)
+library(MCMCpack)
+library(ggmcmc)
+library(coda)
+library(loo)
+library(bayesplot)
+
 install.packages("splancs")
+library(splancs)
 update.packages(ask = FALSE, checkBuilt = TRUE)
+
+
+
+
